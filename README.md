@@ -1,4 +1,6 @@
-<h1 align="center">Codebase Recon</h1>
+<h1 align="center">
+  <img src="assets/banner.png" alt="Codebase Recon" width="100%">
+</h1>
 
 <p align="center">
   Read a codebase you did not write, before you change it.<br>
