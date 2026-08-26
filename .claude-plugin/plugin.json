@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "codebase-recon",
+  "displayName": "Codebase Recon",
+  "version": "1.0.0",
+  "description": "Deep read-only reconnaissance of an unfamiliar codebase, producing an evidence-backed architecture report: structure, execution flows traced end to end, data and state model, concurrency, security boundaries, invariants, coupling, and extension points. Every claim carries file:line evidence and is labeled Verified, Interpretation, or Unclear. Writes exactly one file, the report itself.",
+  "author": {
+    "name": "Suman Roy",
+    "url": "https://github.com/sumanrox"
+  },
+  "homepage": "https://github.com/sumanrox/codebase-recon#readme",
+  "repository": "https://github.com/sumanrox/codebase-recon",
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "onboarding",
+    "code-analysis",
+    "reconnaissance",
+    "legacy-code",
+    "read-only"
+  ]
+}
