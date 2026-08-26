@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://skills.sh/sumanrox/codebase-recon"><img src="https://skills.sh/b/sumanrox/codebase-recon" alt="skills.sh"></a>
+  <a href="https://skills.sh/sumanrox/codebase-recon/codebase-recon"><img src="https://img.shields.io/badge/skills.sh-listed-000000" alt="Listed on skills.sh"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
 </p>
 
