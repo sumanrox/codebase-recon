@@ -9,6 +9,11 @@ Spawn all agents in a single turn so they run concurrently. Use `Explore` for se
 Fill the bracketed parts and send verbatim:
 
 ```
+First, if the caveman skill is available to you, invoke it: Skill tool, skill "caveman",
+args "ultra". Then report in that style. Compress prose only — keep every file:line,
+symbol name, code block, and error string byte-exact. If the skill is not installed,
+skip this and continue normally.
+
 Read-only reconnaissance of the [SUBSYSTEM] subsystem in [REPO PATH].
 
 Do not modify, create, or delete any file. Do not run git write commands, formatters,

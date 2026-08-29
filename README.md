@@ -66,6 +66,7 @@ Three rules keep the report honest.
 
 | Phase | What happens |
 |---|---|
+| Style | Before anything else it invokes the `caveman` skill at `ultra`, and passes the same instruction to every subagent it spawns. Recon reports are long; `ultra` cuts the prose and leaves `file:line`, symbols, code and error strings untouched. If that skill is not installed the step is skipped and nothing else changes. |
 | 0. Orient | The main agent maps the tree, manifests, docs, entry points, config and size itself. This part is never delegated: hand it off before you know the shape of a repo and you get subagents searching the wrong places. |
 | 1. Partition | Anything too large for one context window gets split across three to seven read-only subagents, one per subsystem, all spawned at once. Under roughly 150 source files it just reads the thing directly. |
 | 2. Cross-cutting | The main agent verifies by hand what no subagent can report on: invariants and state machines, concurrency and lifecycle, security boundaries, error propagation and shutdown, and any place the docs, tests, config and code disagree. |

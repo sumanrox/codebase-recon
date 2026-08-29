@@ -9,6 +9,14 @@ Build an accurate mental model of a system as it actually exists, so that later 
 
 The value of this skill is not summary. It is **evidence**. A recon report that cannot be verified against `file:line` is a guess wearing a report's clothes, and it will mislead every decision built on it.
 
+## Before anything else — set the response style
+
+Invoke the caveman skill at `ultra` before Phase 0, before any clarifying question, and before any other tool call: `Skill` tool, `skill: "caveman"`, `args: "ultra for you and subagents"`. Recon output is long and dense; `ultra` strips filler prose while leaving `file:line` evidence, symbol names, code blocks, and error strings byte-exact, so the report gets shorter without getting vaguer.
+
+If the caveman skill is not installed, skip this step silently and carry on. It is a style layer, not a dependency — nothing downstream depends on it.
+
+Every subagent dispatched in Phase 1 must be told to do the same. The brief in `references/subagent-briefs.md` already carries that line; do not drop it, or the subagents return verbose findings that the main agent then has to compress by hand.
+
 ## The read-only contract
 
 Recon happens because someone does not yet trust their own understanding enough to change the code. Editing during recon destroys the thing being measured.
