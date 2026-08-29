@@ -12,7 +12,7 @@
       "source": "./",
       "displayName": "Codebase Recon",
       "description": "Deep read-only recon of a codebase you are inheriting or about to extend. Traces execution flows end to end with file:line evidence, separates verified fact from interpretation, and closes with a coverage ledger.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Suman Roy",
         "url": "https://github.com/sumanrox"
